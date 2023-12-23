@@ -1,6 +1,6 @@
 .loginPage {
-    background: url('Images/employeems.jpeg');
-    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("Images/employeems.jpeg");
+    background: url('Images/employeems2.jpeg');
+    background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)), url("Images/employeems2.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 120%;
@@ -16,3 +16,8 @@
     height: 40px;
     border-radius: 50px;
 }
+
+.redButton {
+    background-color: #ff5555;
+  }
+  

@@ -72,14 +72,17 @@ const Login = () => {
             />
           </div>
           {/* Submit button to trigger form submission */}
-          <button className="btn btn-success w-100 rounded-0 mb-2">
+          <button
+            style={{ backgroundColor: "#ff5555" }}
+            className="btn btn-success w-100 rounded-0 mb-2"
+          >
             Log in
           </button>
           <div className="mb-1">
             {/* Checkbox for terms and conditions */}
             <input type="checkbox" name="tick" id="tick" className="me-2" />
             <label htmlFor="password">
-              <strong>Agree with terms & conditions</strong>
+              <strong>I Agree with terms & conditions</strong>
             </label>
           </div>
         </form>
