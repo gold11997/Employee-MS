@@ -11,6 +11,10 @@
     color: white;
 }
 
+ul li :hover {
+    background-color: gray;
+}
+
 .employee_image {
     width: 40px;
     height: 40px;
@@ -20,4 +24,10 @@
 .redButton {
     background-color: #ff5555;
   }
+
+  .emp_det_image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
   
